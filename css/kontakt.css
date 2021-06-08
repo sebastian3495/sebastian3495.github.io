@@ -1,0 +1,117 @@
+body {
+	background: #426d95;
+	background-image: url("../img/temp.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+input[type=text], input[type=email], input[type=phone], input[type=password], input[type=number], input[type=search], textarea {
+	background: #e6e6e6;
+	padding: 5px;
+	outline: none;
+	border: none;
+	height: 44px;
+	width: 300px;
+	margin-bottom: .5rem;
+	font: 400 13.3333px Arial;
+}
+
+input[type=text], input[type=email], select, textarea {
+	width: 80%;
+	padding: 12px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	border: 1px solid #5AA1DD;
+}
+
+
+input:focus, textarea:focus {
+	border: 2px solid green;
+}
+
+textarea {
+	height: 200px;
+	min-height: 200px;
+	max-height: 200px;
+	cursor: text;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+}
+
+div.wrapper {
+	margin-top: 100px;
+	margin-bottom: 25px;
+	width: 100%;
+	text-align: center;
+}
+
+div.wrapper div {
+	display: inline-block;
+
+}
+
+
+div.wrapper div.logo-display {
+	position: absolute;
+	left: 50%;
+	top: 350px;
+	transform: translate(-50%, -50%);
+	z-index: 99
+}
+
+div.wrapper div.form-div {
+	height: 100%;
+	width: 80%;
+}
+
+form {
+	height: 100%;
+	text-align: left;
+	position: relative;
+	padding-top: 5%;
+	margin-left: 20px;
+	margin-right: 1%;
+	background-color: rgba(255, 255, 255, 0.95);
+	margin-bottom: 40px;
+	border-radius: 5px;
+}
+
+form .field {
+	margin-bottom: 20px;
+}
+
+form .note {
+	margin-top: 5px;
+	color: gray;
+}
+
+form .req {
+	font-style: italic;
+}
+
+.full-width {
+	background-color: #a3d3h3;
+}
+
+form label {
+	margin-left: 10%;
+	font-size: 15px;
+}
+
+@media (max-width: 768px) {
+	div.logo-display img {
+		display: none;
+	}
+
+	form {
+		padding-top: 20px;
+	}
+}
+

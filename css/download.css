@@ -1,0 +1,52 @@
+header {
+    transition: top 0.2s ease-in-out
+}
+
+#reminder {
+    color: #5bc0de;
+    height: 350px;
+}
+#reminder .float-left img{
+    float: right;
+    margin-right: 14%;
+}
+#reminder .float-left p{
+    display: inline-block;
+    background: rgb(255, 250, 141);
+    margin: 150px 0;
+    margin-left: 10%;
+    line-height: 40px;
+    margin-top: 100px;
+    font-size: 25px;
+    width: 50%;
+    padding: 20px;
+}
+#reminder div p a:hover {
+    background-color: lightblue;
+}
+.round-image {
+    border-radius: 130px;
+    opacity: 0.85;
+}
+.D_hide {
+    margin-top: 50px;
+    height: 250px;
+}
+#pricing-table {
+    margin-top: 8vh;
+    padding-bottom: 40px;
+}
+
+body#body {
+    background-color: rgb(241, 241, 241);
+}
+
+@media (max-width: 1050px) {
+    #reminder .float-left p{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .D_hide {
+        display: none;
+    }
+}
